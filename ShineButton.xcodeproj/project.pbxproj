@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE30A29F1E57EA5200248595 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE30A29E1E57EA5200248595 /* AppDelegate.swift */; };
+		FE30A2A11E57EA5200248595 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE30A2A01E57EA5200248595 /* ViewController.swift */; };
+		FE30A2A41E57EA5200248595 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE30A2A21E57EA5200248595 /* Main.storyboard */; };
+		FE30A2A61E57EA5200248595 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE30A2A51E57EA5200248595 /* Assets.xcassets */; };
+		FE30A2A91E57EA5200248595 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE30A2A71E57EA5200248595 /* LaunchScreen.storyboard */; };
+		FE30A2B41E57EA5200248595 /* ShineButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE30A2B31E57EA5200248595 /* ShineButtonTests.swift */; };
+		FE30A2BF1E57EAC400248595 /* ShineButton.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FE30A2BE1E57EAC400248595 /* ShineButton.bundle */; };
+		FE30A2C11E57EBB300248595 /* ShineParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE30A2C01E57EBB300248595 /* ShineParams.swift */; };
+		FE30A2C31E57EC0300248595 /* UIColor+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE30A2C21E57EC0300248595 /* UIColor+extension.swift */; };
+		FE30A2C51E57EC9E00248595 /* ShineBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE30A2C41E57EC9E00248595 /* ShineBundle.swift */; };
+		FE30A2C71E57ECD800248595 /* ShineButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE30A2C61E57ECD800248595 /* ShineButton.swift */; };
+		FE30A2C91E57F9D200248595 /* ShineClickLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE30A2C81E57F9D200248595 /* ShineClickLayer.swift */; };
+		FE30A2CB1E57FE4B00248595 /* ShineLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE30A2CA1E57FE4B00248595 /* ShineLayer.swift */; };
+		FE30A2CD1E581B6A00248595 /* ShineAngleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE30A2CC1E581B6A00248595 /* ShineAngleLayer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE30A2B01E57EA5200248595 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE30A2931E57EA5200248595 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE30A29A1E57EA5200248595;
+			remoteInfo = ShineButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE30A29B1E57EA5200248595 /* ShineButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShineButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE30A29E1E57EA5200248595 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FE30A2A01E57EA5200248595 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FE30A2A31E57EA5200248595 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE30A2A51E57EA5200248595 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE30A2A81E57EA5200248595 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE30A2AA1E57EA5200248595 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE30A2AF1E57EA5200248595 /* ShineButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShineButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE30A2B31E57EA5200248595 /* ShineButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShineButtonTests.swift; sourceTree = "<group>"; };
+		FE30A2B51E57EA5200248595 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE30A2BE1E57EAC400248595 /* ShineButton.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ShineButton.bundle; sourceTree = "<group>"; };
+		FE30A2C01E57EBB300248595 /* ShineParams.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShineParams.swift; sourceTree = "<group>"; };
+		FE30A2C21E57EC0300248595 /* UIColor+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+extension.swift"; sourceTree = "<group>"; };
+		FE30A2C41E57EC9E00248595 /* ShineBundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShineBundle.swift; sourceTree = "<group>"; };
+		FE30A2C61E57ECD800248595 /* ShineButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShineButton.swift; sourceTree = "<group>"; };
+		FE30A2C81E57F9D200248595 /* ShineClickLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShineClickLayer.swift; sourceTree = "<group>"; };
+		FE30A2CA1E57FE4B00248595 /* ShineLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShineLayer.swift; sourceTree = "<group>"; };
+		FE30A2CC1E581B6A00248595 /* ShineAngleLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShineAngleLayer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE30A2981E57EA5200248595 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE30A2AC1E57EA5200248595 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE30A2921E57EA5200248595 = {
+			isa = PBXGroup;
+			children = (
+				FE30A29D1E57EA5200248595 /* ShineButton */,
+				FE30A2B21E57EA5200248595 /* ShineButtonTests */,
+				FE30A29C1E57EA5200248595 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE30A29C1E57EA5200248595 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE30A29B1E57EA5200248595 /* ShineButton.app */,
+				FE30A2AF1E57EA5200248595 /* ShineButtonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE30A29D1E57EA5200248595 /* ShineButton */ = {
+			isa = PBXGroup;
+			children = (
+				FE30A2BE1E57EAC400248595 /* ShineButton.bundle */,
+				FE30A29E1E57EA5200248595 /* AppDelegate.swift */,
+				FE30A2A01E57EA5200248595 /* ViewController.swift */,
+				FE30A2C01E57EBB300248595 /* ShineParams.swift */,
+				FE30A2C21E57EC0300248595 /* UIColor+extension.swift */,
+				FE30A2C41E57EC9E00248595 /* ShineBundle.swift */,
+				FE30A2C61E57ECD800248595 /* ShineButton.swift */,
+				FE30A2C81E57F9D200248595 /* ShineClickLayer.swift */,
+				FE30A2CA1E57FE4B00248595 /* ShineLayer.swift */,
+				FE30A2CC1E581B6A00248595 /* ShineAngleLayer.swift */,
+				FE30A2A21E57EA5200248595 /* Main.storyboard */,
+				FE30A2A51E57EA5200248595 /* Assets.xcassets */,
+				FE30A2A71E57EA5200248595 /* LaunchScreen.storyboard */,
+				FE30A2AA1E57EA5200248595 /* Info.plist */,
+			);
+			path = ShineButton;
+			sourceTree = "<group>";
+		};
+		FE30A2B21E57EA5200248595 /* ShineButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE30A2B31E57EA5200248595 /* ShineButtonTests.swift */,
+				FE30A2B51E57EA5200248595 /* Info.plist */,
+			);
+			path = ShineButtonTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE30A29A1E57EA5200248595 /* ShineButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE30A2B81E57EA5200248595 /* Build configuration list for PBXNativeTarget "ShineButton" */;
+			buildPhases = (
+				FE30A2971E57EA5200248595 /* Sources */,
+				FE30A2981E57EA5200248595 /* Frameworks */,
+				FE30A2991E57EA5200248595 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShineButton;
+			productName = ShineButton;
+			productReference = FE30A29B1E57EA5200248595 /* ShineButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE30A2AE1E57EA5200248595 /* ShineButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE30A2BB1E57EA5200248595 /* Build configuration list for PBXNativeTarget "ShineButtonTests" */;
+			buildPhases = (
+				FE30A2AB1E57EA5200248595 /* Sources */,
+				FE30A2AC1E57EA5200248595 /* Frameworks */,
+				FE30A2AD1E57EA5200248595 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE30A2B11E57EA5200248595 /* PBXTargetDependency */,
+			);
+			name = ShineButtonTests;
+			productName = ShineButtonTests;
+			productReference = FE30A2AF1E57EA5200248595 /* ShineButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE30A2931E57EA5200248595 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Being Inc";
+				TargetAttributes = {
+					FE30A29A1E57EA5200248595 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = B8AN3R9Z2W;
+						ProvisioningStyle = Automatic;
+					};
+					FE30A2AE1E57EA5200248595 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = B8AN3R9Z2W;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FE30A29A1E57EA5200248595;
+					};
+				};
+			};
+			buildConfigurationList = FE30A2961E57EA5200248595 /* Build configuration list for PBXProject "ShineButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE30A2921E57EA5200248595;
+			productRefGroup = FE30A29C1E57EA5200248595 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE30A29A1E57EA5200248595 /* ShineButton */,
+				FE30A2AE1E57EA5200248595 /* ShineButtonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE30A2991E57EA5200248595 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE30A2A91E57EA5200248595 /* LaunchScreen.storyboard in Resources */,
+				FE30A2BF1E57EAC400248595 /* ShineButton.bundle in Resources */,
+				FE30A2A61E57EA5200248595 /* Assets.xcassets in Resources */,
+				FE30A2A41E57EA5200248595 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE30A2AD1E57EA5200248595 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE30A2971E57EA5200248595 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE30A2A11E57EA5200248595 /* ViewController.swift in Sources */,
+				FE30A2C71E57ECD800248595 /* ShineButton.swift in Sources */,
+				FE30A29F1E57EA5200248595 /* AppDelegate.swift in Sources */,
+				FE30A2CD1E581B6A00248595 /* ShineAngleLayer.swift in Sources */,
+				FE30A2C11E57EBB300248595 /* ShineParams.swift in Sources */,
+				FE30A2C51E57EC9E00248595 /* ShineBundle.swift in Sources */,
+				FE30A2C91E57F9D200248595 /* ShineClickLayer.swift in Sources */,
+				FE30A2C31E57EC0300248595 /* UIColor+extension.swift in Sources */,
+				FE30A2CB1E57FE4B00248595 /* ShineLayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE30A2AB1E57EA5200248595 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE30A2B41E57EA5200248595 /* ShineButtonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE30A2B11E57EA5200248595 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE30A29A1E57EA5200248595 /* ShineButton */;
+			targetProxy = FE30A2B01E57EA5200248595 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FE30A2A21E57EA5200248595 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE30A2A31E57EA5200248595 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE30A2A71E57EA5200248595 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE30A2A81E57EA5200248595 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE30A2B61E57EA5200248595 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FE30A2B71E57EA5200248595 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE30A2B91E57EA5200248595 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B8AN3R9Z2W;
+				INFOPLIST_FILE = ShineButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wilson.ShineButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FE30A2BA1E57EA5200248595 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B8AN3R9Z2W;
+				INFOPLIST_FILE = ShineButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wilson.ShineButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		FE30A2BC1E57EA5200248595 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = B8AN3R9Z2W;
+				INFOPLIST_FILE = ShineButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wilson.ShineButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShineButton.app/ShineButton";
+			};
+			name = Debug;
+		};
+		FE30A2BD1E57EA5200248595 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = B8AN3R9Z2W;
+				INFOPLIST_FILE = ShineButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wilson.ShineButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShineButton.app/ShineButton";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE30A2961E57EA5200248595 /* Build configuration list for PBXProject "ShineButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE30A2B61E57EA5200248595 /* Debug */,
+				FE30A2B71E57EA5200248595 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE30A2B81E57EA5200248595 /* Build configuration list for PBXNativeTarget "ShineButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE30A2B91E57EA5200248595 /* Debug */,
+				FE30A2BA1E57EA5200248595 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FE30A2BB1E57EA5200248595 /* Build configuration list for PBXNativeTarget "ShineButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE30A2BC1E57EA5200248595 /* Debug */,
+				FE30A2BD1E57EA5200248595 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE30A2931E57EA5200248595 /* Project object */;
+}
