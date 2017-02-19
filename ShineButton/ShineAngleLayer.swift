@@ -142,42 +142,18 @@ private extension ShineAngleLayer {
         return flash
     }
     
-    ///angle 为最终转换的弧度 angle = 角度 * M_P1 / 1801
+    ///angle 为最终转换的弧度 angle = 角度 * M_P1 / 180
     func shineCenter(at angle: CGFloat, radius: CGFloat) -> CGPoint {
         
         let centX = bounds.midX
         let centY = bounds.midY
-        var multiple: Int = 0
-        
-        //第四象限
-        if (angle >= 0 && angle <= CGFloat(90 * M_PI / 180)) {
-            multiple = 1
-            //第三象限
-        } else if (angle <= CGFloat(M_PI) && angle > CGFloat(90 * M_PI / 180)) {
-            multiple = 2
-            //第二象限
-        } else if (angle > CGFloat(M_PI) && angle <= CGFloat(270 * M_PI / 180)){
-            multiple = 3
-        } else {
-            multiple = 4
-        }
-        
-        //弧度
-        let resultAngle = CGFloat(multiple) * CGFloat(90 * M_PI / 180) - angle
         //计算y或x值
-        let a = sin(resultAngle) * radius
+        let sina = sin(angle) * radius
         //计算x或y值
-        let b = cos(resultAngle) * radius
+        let cosb = cos(angle) * radius
+        let point = CGPoint(x: centX + cosb, y: centY - sina)
         
-        if multiple == 1 {
-            return CGPoint(x: centX + b, y: centY - a)
-        } else if multiple == 2 {
-            return CGPoint(x: centX + a, y: centY + b)
-        } else if multiple == 3 {
-            return CGPoint(x: centX - b, y: centY + a)
-        } else {
-            return CGPoint(x: centX - a, y: centY - b)
-        }
+        return point
     }
     
     
@@ -190,6 +166,7 @@ private extension ShineAngleLayer {
         
         //奇数
         if params.shineCount % 2 != 0 {
+            //向后偏移1/2个angle
             startAngle = CGFloat(M_PI * 2 - Double(angle) / Double(params.shineCount))
         }
         

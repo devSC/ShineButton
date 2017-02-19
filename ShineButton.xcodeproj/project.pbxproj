@@ -21,6 +21,7 @@
 		FE30A2C91E57F9D200248595 /* ShineClickLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE30A2C81E57F9D200248595 /* ShineClickLayer.swift */; };
 		FE30A2CB1E57FE4B00248595 /* ShineLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE30A2CA1E57FE4B00248595 /* ShineLayer.swift */; };
 		FE30A2CD1E581B6A00248595 /* ShineAngleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE30A2CC1E581B6A00248595 /* ShineAngleLayer.swift */; };
+		FE5173971E59370A00D4765E /* CoreGraphics.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5173961E59370A00D4765E /* CoreGraphics.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		FE30A2C81E57F9D200248595 /* ShineClickLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShineClickLayer.swift; sourceTree = "<group>"; };
 		FE30A2CA1E57FE4B00248595 /* ShineLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShineLayer.swift; sourceTree = "<group>"; };
 		FE30A2CC1E581B6A00248595 /* ShineAngleLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShineAngleLayer.swift; sourceTree = "<group>"; };
+		FE5173961E59370A00D4765E /* CoreGraphics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreGraphics.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,14 +98,9 @@
 				FE30A2BE1E57EAC400248595 /* ShineButton.bundle */,
 				FE30A29E1E57EA5200248595 /* AppDelegate.swift */,
 				FE30A2A01E57EA5200248595 /* ViewController.swift */,
-				FE30A2C01E57EBB300248595 /* ShineParams.swift */,
-				FE30A2C21E57EC0300248595 /* UIColor+extension.swift */,
-				FE30A2C41E57EC9E00248595 /* ShineBundle.swift */,
-				FE30A2C61E57ECD800248595 /* ShineButton.swift */,
-				FE30A2C81E57F9D200248595 /* ShineClickLayer.swift */,
-				FE30A2CA1E57FE4B00248595 /* ShineLayer.swift */,
-				FE30A2CC1E581B6A00248595 /* ShineAngleLayer.swift */,
+				FE5173951E5936E900D4765E /* Shine */,
 				FE30A2A21E57EA5200248595 /* Main.storyboard */,
+				FE5173961E59370A00D4765E /* CoreGraphics.swift */,
 				FE30A2A51E57EA5200248595 /* Assets.xcassets */,
 				FE30A2A71E57EA5200248595 /* LaunchScreen.storyboard */,
 				FE30A2AA1E57EA5200248595 /* Info.plist */,
@@ -118,6 +115,20 @@
 				FE30A2B51E57EA5200248595 /* Info.plist */,
 			);
 			path = ShineButtonTests;
+			sourceTree = "<group>";
+		};
+		FE5173951E5936E900D4765E /* Shine */ = {
+			isa = PBXGroup;
+			children = (
+				FE30A2C01E57EBB300248595 /* ShineParams.swift */,
+				FE30A2C21E57EC0300248595 /* UIColor+extension.swift */,
+				FE30A2C41E57EC9E00248595 /* ShineBundle.swift */,
+				FE30A2C61E57ECD800248595 /* ShineButton.swift */,
+				FE30A2C81E57F9D200248595 /* ShineClickLayer.swift */,
+				FE30A2CA1E57FE4B00248595 /* ShineLayer.swift */,
+				FE30A2CC1E581B6A00248595 /* ShineAngleLayer.swift */,
+			);
+			name = Shine;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +242,7 @@
 				FE30A29F1E57EA5200248595 /* AppDelegate.swift in Sources */,
 				FE30A2CD1E581B6A00248595 /* ShineAngleLayer.swift in Sources */,
 				FE30A2C11E57EBB300248595 /* ShineParams.swift in Sources */,
+				FE5173971E59370A00D4765E /* CoreGraphics.swift in Sources */,
 				FE30A2C51E57EC9E00248595 /* ShineBundle.swift in Sources */,
 				FE30A2C91E57F9D200248595 /* ShineClickLayer.swift in Sources */,
 				FE30A2C31E57EC0300248595 /* UIColor+extension.swift in Sources */,
@@ -442,6 +454,7 @@
 				FE30A2BA1E57EA5200248595 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FE30A2BB1E57EA5200248595 /* Build configuration list for PBXNativeTarget "ShineButtonTests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +463,7 @@
 				FE30A2BD1E57EA5200248595 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
